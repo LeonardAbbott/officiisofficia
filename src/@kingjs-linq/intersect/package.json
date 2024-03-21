@@ -1,0 +1,30 @@
+{
+  "name": "@kingjs-linq/intersect",
+  "version": "1.0.8",
+  "description": "Generates the set intersection of two sequences.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/linq/intersect"
+  },
+  "author": "Chris King <kingces95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/dictionary": "latest",
+    "@kingjs/i-enumerable": "latest",
+    "@kingjs/i-enumerator": "latest",
+    "@kingjs/reflect.export-extension": "latest",
+    "@kingjs/reflect.implement-i-enumerable": "latest"
+  },
+  "devDependencies": {
+    "kingjs": "^1.0.46"
+  },
+  "capitalize": true
+}

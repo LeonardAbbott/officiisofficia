@@ -1,0 +1,25 @@
+{
+  "name": "@kingjs/normalize-packages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/normalize-packages"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/git.get-dir": "^1.0.0",
+    "@kingjs/poset.for-each": "^1.0.14",
+    "npm-api": "latest",
+    "shelljs": "latest"
+  }
+}

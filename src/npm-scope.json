@@ -1,0 +1,14 @@
+{
+  "name": "kingjs",
+  "template": ".template",
+  "npmDir": ".npm",
+  "repository": {
+    "url": "https://repository.kingjs.net",
+    "type": "git"
+  },
+  "packageDefaults": {
+    "main": "index.js",
+    "files": [ "*.js" ],
+    "license": "MIT"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@kingjs/graph.poset.reverse",
+  "version": "0.0.0",
+  "description": "Reverses the links of the poset.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "capitalize": true,
+  "keywords": [],
+  "author": "Chris King <kingces95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/graph.poset.reduce": "file:../reduce",
+    "@kingjs-module/export-extension": "file:../../../module/export-extension"
+  },
+  "nodeDependencies": []
+}

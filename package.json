@@ -1,0 +1,37 @@
+{
+  "description": "External dependencies of this repository.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeonardAbbott/officiisofficia.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "latest",
+    "deep-equals": "latest",
+    "eslint": "latest",
+    "esserepellat": "^1.0.0",
+    "is-builtin-module": "latest",
+    "js-beautify": "latest",
+    "minimatch": "latest",
+    "mongodb": "latest",
+    "npm-api": "latest",
+    "npm-packlist": "latest",
+    "os-utils": "latest",
+    "rxjs": "latest",
+    "shelljs": "latest",
+    "typescript": "latest",
+    "uuid": "latest",
+    "which": "latest",
+    "yargs": "latest"
+  },
+  "devDependencies": {
+    "c8": "latest"
+  },
+  "name": "officiisofficia",
+  "author": "AniyahFerry",
+  "bugs": {
+    "url": "https://github.com/LeonardAbbott/officiisofficia.git/issues"
+  },
+  "homepage": "https://github.com/LeonardAbbott/officiisofficia.git",
+  "version": "1.11.0"
+}

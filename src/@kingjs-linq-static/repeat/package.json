@@ -1,0 +1,27 @@
+{
+  "name": "@kingjs-linq/repeat",
+  "version": "1.0.6",
+  "description": "Generate a sequence of a repeated value.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/linq/repeat"
+  },
+  "keywords": [],
+  "author": "Chris King <kingces95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/reflect.implement-i-enumerable": "latest"
+  },
+  "devDependencies": {
+    "kingjs": "^1.0.46"
+  },
+  "capitalize": true
+}

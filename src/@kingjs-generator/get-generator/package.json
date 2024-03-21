@@ -1,0 +1,26 @@
+{
+  "name": "@kingjs/get-generator",
+  "version": "1.0.0",
+  "description": "Returns a `generator` given an `iterable`.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "prepublishOnly": "npm .test",
+    "build": "cpk && crm && cdj && clk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/get-generator"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/reflect.is": "latest"
+  },
+  "nodeDependencies": [
+    "assert"
+  ]
+}

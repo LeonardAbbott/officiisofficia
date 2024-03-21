@@ -1,0 +1,31 @@
+{
+  "name": "@kingjs/git.rx.exec",
+  "version": "1.0.0",
+  "description": "Executes a git command using the git executable found on the path.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "prepublishOnly": "npm .test",
+    "build": "cpk && crm && cdj && clk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/git/rx/exec"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/rx.i-observable": "latest",
+    "@kingjs/rx.i-observer": "latest",
+    "@kingjs/rx.subject": "latest",
+    "@kingjs/spawn": "latest",
+    "which": "latest"
+  },
+  "nodeDependencies": [
+    "assert",
+    "string_decoder"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@kingjs/generator",
+  "version": "1.0.1",
+  "description": "The constructor for generator functions.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/generator"
+  },
+  "keywords": [],
+  "author": "Chris King <kingces95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "capitalize": true
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@kingjs/camel-case.join",
+  "version": "1.0.0",
+  "description": "Capitalizes an array of strings and joins them together.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "prepublishOnly": "npm .test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/camel-case/join"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {}
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@kingjs/parse-source",
+  "version": "1.0.0",
+  "description": "Expresses a TypeScript AST as an object literal.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "prepublishOnly": "npm test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/parse-source"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "nodeDependencies": [
+    "assert"
+  ],
+  "dependencies": {
+    "@kingjs/create-constructor": "file:../create-constructor",
+    "@kingjs/reflect.is": "file:../reflect/is",
+    "typescript": "file:../.npm/node_modules/typescript"
+  }
+}

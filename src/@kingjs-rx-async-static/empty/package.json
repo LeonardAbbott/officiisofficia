@@ -1,0 +1,29 @@
+{
+  "name": "@kingjs-rx/empty",
+  "version": "1.0.0",
+  "description": "Create an `IObservable` that asynchronously emits `Date.now()` endlessly.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "prepublishOnly": "npm .test",
+    "build": "cpk && crm && cdj && clk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/rx/clock"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/endless": "latest",
+    "@kingjs/promise.sleep": "latest",
+    "@kingjs/rx.create": "latest",
+    "@kingjs/rx.i-observer": "latest"
+  },
+  "nodeDependencies": [
+    "assert"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@kingjs-linq/order-by",
+  "version": "1.0.7",
+  "description": "Generates a sequence of elements in ascending  order according to a key.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/linq/order-by"
+  },
+  "keywords": [],
+  "author": "Chris King <kingces95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/i-enumerable": "latest",
+    "@kingjs/i-enumerator": "latest",
+    "@kingjs/i-ordered-enumerable": "latest",
+    "@kingjs-linq/default-less-than": "latest",
+    "@kingjs-linq/to-array": "latest",
+    "@kingjs/reflect.export-extension": "latest"
+  },
+  "devDependencies": {
+    "kingjs": "^1.0.46"
+  },
+  "capitalize": true
+}

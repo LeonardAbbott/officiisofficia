@@ -1,0 +1,29 @@
+{
+  "name": "@kingjs-linq/contains",
+  "version": "1.0.7",
+  "description": "Returns true if a sequence contains  a specified element.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/linq/contains"
+  },
+  "author": "Chris King <kingces95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/i-enumerable": "latest",
+    "@kingjs/i-enumerator": "latest",
+    "@kingjs-linq/default-equal": "latest",
+    "@kingjs/reflect.export-extension": "latest"
+  },
+  "devDependencies": {
+    "kingjs": "^1.0.46"
+  },
+  "capitalize": true
+}

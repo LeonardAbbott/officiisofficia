@@ -1,0 +1,34 @@
+{
+  "name": "@kingjs/create-links",
+  "version": "1.0.0",
+  "description": "Recursively creates npm links for all dependent packages.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "bin": {
+    "crate-links": "./clk.js",
+    "clk": "./clk.js"
+  },
+  "scripts": {
+    "test": "node .test",
+    "prepublishOnly": "npm test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/create-links"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/git.get-dir": "latest",
+    "@kingjs/git.get-files": "latest",
+    "@kingjs/package-name.parse": "latest",
+    "shelljs": "latest"
+  },
+  "nodeDependencies": [
+    "fs",
+    "path"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@kingjs-linq/range",
+  "version": "1.0.11",
+  "description": "Generate a range of numbers.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/linq/range"
+  },
+  "keywords": [],
+  "author": "Chris King <kingces95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/reflect.implement-i-enumerable": "latest"
+  },
+  "devDependencies": {
+    "kingjs": "^1.0.46"
+  }
+}

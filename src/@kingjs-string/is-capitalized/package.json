@@ -1,0 +1,24 @@
+{
+  "name": "@kingjs-string/is-capitalized",
+  "version": "1.0.1",
+  "description": "Test if a string is capitalized.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node test",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/string-ex/is-capitalized"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs-module/export-extension": "file:../../module/export-extension",
+    "@kingjs/string-ex.is-upper-case-at": "file:../is-upper-case-at"
+  },
+  "capitalize": true
+}

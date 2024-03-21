@@ -1,0 +1,25 @@
+{
+  "name": "@kingjs/async-generator",
+  "version": "1.0.0",
+  "description": "A function for testing if another function is an `instanceof` an async generator.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "prepublishOnly": "npm .test",
+    "build": "cpk && crm && cdj && clk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/async-generator"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {},
+  "nodeDependencies": [
+    "assert"
+  ],
+  "capitalize": true
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@kingjs/assert-theory",
+  "version": "1.0.20",
+  "description": "Calls a theory with every combination of elements from an array set.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/assert-theory"
+  },
+  "keywords": [],
+  "author": "Chris King <kingces95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/from-each": "file:../from-each"
+  },
+  "devDependencies": {}
+}

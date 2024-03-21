@@ -1,0 +1,31 @@
+{
+  "name": "@kingjs-linq/group-join",
+  "version": "1.0.7",
+  "description": "Generates a sequence of elements composed  of an element in one sequence and a group of elements  in another sequence all of which share a common key.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/linq/group-join"
+  },
+  "author": "Chris King <kingces95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/i-enumerable": "latest",
+    "@kingjs/i-enumerator": "latest",
+    "@kingjs-linq/empty": "latest",
+    "@kingjs-linq/to-lookup": "latest",
+    "@kingjs/reflect.export-extension": "latest",
+    "@kingjs/reflect.implement-i-enumerable": "latest"
+  },
+  "devDependencies": {
+    "kingjs": "^1.0.46"
+  },
+  "capitalize": true
+}

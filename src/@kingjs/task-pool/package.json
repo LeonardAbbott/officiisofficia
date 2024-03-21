@@ -1,0 +1,28 @@
+{
+  "name": "@kingjs/task-pool",
+  "version": "1.0.0",
+  "description": "A pool of running tasks and a queue of pending tasks. Tasks are added by calling `start` and are either executed without delay or put into a pending queue which,  upon overflow, is culled via a callback.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "prepublishOnly": "npm .test",
+    "build": "cpk && crm && cdj && clk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/task-pool"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/array.remove": "latest",
+    "@kingjs/array.remove-at": "latest"
+  },
+  "nodeDependencies": [
+    "events"
+  ],
+  "capitalize": true
+}

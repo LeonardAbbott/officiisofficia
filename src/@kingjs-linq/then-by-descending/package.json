@@ -1,0 +1,29 @@
+{
+  "name": "@kingjs-linq/then-by-descending",
+  "version": "1.0.7",
+  "description": "Generates a sequence of elements from a sorted  sequence where elements previously considered equal are put  in descending order according to a key.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/linq/then-by-descending"
+  },
+  "keywords": [],
+  "author": "Chris King <kingces95@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "kingjs": "^1.0.46"
+  },
+  "capitalize": true,
+  "dependencies": {
+    "@kingjs/i-enumerable": "latest",
+    "@kingjs/i-ordered-enumerable": "latest",
+    "@kingjs/reflect.export-extension": "latest"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@kingjs/endless",
+  "version": "1.0.0",
+  "description": "Returns a function that returns `value`. If value  is iterable it's elements are returned after which undefined is returned.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "prepublishOnly": "npm .test",
+    "build": "cpk && crm && cdj && clk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/endless"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/reflect.is": "latest"
+  },
+  "nodeDependencies": [
+    "assert"
+  ]
+}

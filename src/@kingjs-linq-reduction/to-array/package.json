@@ -1,0 +1,29 @@
+{
+  "name": "@kingjs-linq/to-array",
+  "version": "1.0.8",
+  "description": "Creates an array from a `IEnumerable`.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "prepublishOnly": "npm test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/linq/to-array"
+  },
+  "author": "Chris King <kingces95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/i-enumerable": "latest",
+    "@kingjs-linq/aggregate": "latest",
+    "@kingjs/reflect.export-extension": "latest"
+  },
+  "devDependencies": {
+    "kingjs": "^1.0.48"
+  },
+  "capitalize": true
+}

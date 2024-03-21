@@ -1,0 +1,29 @@
+{
+  "name": "@kingjs-linq/distinct",
+  "version": "1.0.10",
+  "description": "Generates a sequence composed of the  distinct elements of another sequence.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test",
+    "build": "cpk && crm && cdj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/linq/distinct"
+  },
+  "keywords": [],
+  "author": "Chris King <kingces95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs/i-enumerable": "latest",
+    "@kingjs-linq/except": "latest",
+    "@kingjs/reflect.export-extension": "latest"
+  },
+  "devDependencies": {
+    "kingjs": "^1.0.46"
+  },
+  "capitalize": true
+}

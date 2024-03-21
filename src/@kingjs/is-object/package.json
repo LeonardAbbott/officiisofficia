@@ -1,0 +1,20 @@
+{
+  "name": "@kingjs/is-object",
+  "version": "1.0.1",
+  "description": "Returns true if the `typeof` a value is `'object'` and is not `null`",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node .test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kingces95/kingjs.git"
+  },
+  "keywords": [],
+  "author": "Chris King <kingces95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}

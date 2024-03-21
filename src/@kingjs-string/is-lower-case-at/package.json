@@ -1,0 +1,23 @@
+{
+  "name": "@kingjs-string/is-lower-case-at",
+  "version": "1.0.1",
+  "description": "Test if a character at an index in a string is lower case.",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "node test",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repository.kingjs.net/string-ex/is-lower-case-at"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@kingjs-module/export-extension": "file:../../module/export-extension"
+  },
+  "capitalize": true
+}
